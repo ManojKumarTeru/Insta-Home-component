@@ -31,7 +31,7 @@ const StatusContainer = () => {
     ]
     console.log(statusList)
   return (
-    <div className='flex gap-3 p-3 overflow-x-auto border-b-[2px]'>
+    <div className='flex gap-3 p-3 overflow-x-auto border-b-[2px] mb-6'>
         {
           statusList && statusList.map(status=><Status key={status.id} status={status} />)
         }

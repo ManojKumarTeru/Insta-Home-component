@@ -6,7 +6,7 @@ import userProfile from '/src/assets/Images/AzeemSaifiLogo.png'
 
 const Footer = () => {
     return (
-        <footer className="flex items-center  p-3 fixed bottom-0 left-0 w-full border-t-[1px]">
+        <footer className="flex items-center  p-3 w-full border-t-[1px] max-w-sm">
             <div className="flex justify-between w-full items-center text-2xl mr-6">
             <GoHomeFill />
             <IoSearch/>
