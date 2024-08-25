@@ -1,15 +1,14 @@
-import React from 'react'
-import HomeTop from './HomeTop'
-import Status from './Status'
+import Post from './post/Post'
+import Status from './status/Status'
+import StatusContainer from './status/StatusContainer'
 
 function InstaHome() {
   return (
-    <div>
-        <div>
-            <HomeTop />
-        </div>
+    <div className=' w-full '>
         <div>
             <Status />
+            <StatusContainer/>
+            <Post/>
         </div>
     </div>
   )
